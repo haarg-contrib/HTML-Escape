@@ -35,14 +35,11 @@ my %args = (
     },
 
     build_requires => {
-        'Devel::PPPort' => '3.20',
         'ExtUtils::CBuilder' => '0',
-        'Module::Build::Pluggable::PPPort' => '0.04',
-        'Test::More' => '0.98',
-        'Test::Requires' => '0',
     },
 
     test_requires => {
+        'Test::More' => '0.98',
     },
 
     name            => 'HTML-Escape',
